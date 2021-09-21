@@ -63,3 +63,11 @@
 3. [N-th Term Of Fibonacci Series](dynamic_programming/fibonacci_series_nth_term.py)
 4. [Catalan Sequence](dynamic_programming/catalan_sequence.py)
 5. [0/1 Knapsack Problem](dynamic_programming/knapsack.py)
+
+## Tree
+
+1. [Binary Search Tree](Tree/binary_search_tree.py)
+
+## Graph
+
+1. [Simple Graph](Graph/graph.py)
