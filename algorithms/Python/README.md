@@ -64,6 +64,16 @@
 4. [Catalan Sequence](dynamic_programming/catalan_sequence.py)
 5. [0/1 Knapsack Problem](dynamic_programming/knapsack.py)
 
+## Tree
+
+1. [Binary Search Tree](Tree/binary_search_tree.py)
+
+## Graph
+
+1. [Simple Graph](Graph/graph.py)
+
+
 ## Trees
 
 1. [Binary Tree](trees/binary_tree.py)
+
