@@ -57,10 +57,10 @@ class GFG {
 		System.out.println(LCSubStr(X.toCharArray(), Y.toCharArray(), m, n));
 		
 		// Test 2:
-		String X = "abcdefgh";
-		String Y = "abaabcfg";
-		int m = X.length();
-		int n = Y.length();
+		X = "abcdefgh";
+		Y = "abaabcfg";
+		m = X.length();
+		n = Y.length();
 		System.out.println(LCSubStr(X.toCharArray(), Y.toCharArray(), m, n));
 	}
 }

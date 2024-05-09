@@ -119,6 +119,7 @@ class Dijkstras
 		int source;
 		System.out.println("Please enter source vertex");
 		source = sc.nextInt();
+		sc.close();
 		Dijkstras d = new Dijkstras();
 		int[] distances  = d.dijkstras(adj_list, source);  //source vertex is taken as 0
 		System.out.println("Distances from source "+source);

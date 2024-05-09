@@ -3,7 +3,6 @@
 // Algorithm Type: Backtracking
 // Time Complexity: O(n!)
 
-import java.util.*;
 import java.util.Scanner;
 
 class nqueen
@@ -23,6 +22,7 @@ class nqueen
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value of N for NxN chess board:\t");
         int n = sc.nextInt();
+        sc.close();
         int[][] chessBoard = new int[n][n];
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
@@ -82,7 +82,6 @@ class nqueen
     }
     public static void main(String[] args)
     {
-        nqueen obj = new nqueen();
-        obj.solveNQueen();
+        solveNQueen();
     }
 }
