@@ -24,6 +24,7 @@ import java.util.Scanner;
         Scanner input=new Scanner(System.in);
         String str1=input.next();
         String str2=input.next();
+        input.close();
         if(strings_are_isomorphic(str1,str2)){
             System.out.println("1");
         }else{

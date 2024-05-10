@@ -24,15 +24,16 @@ import java.util.Stack;
   
   public class Next_Greater_Element {
       public static void main(String[] args){
-          Scanner input=new Scanner(System.in);
-          int n=input.nextInt();
+          Scanner input = new Scanner(System.in);
+          int n = input.nextInt();
           long arr[]=new long[n];
           for (int i=0;i<n;i++){
               arr[i]=input.nextLong();
           }
+          input.close();
           long ans[]=nextLargerElement(arr,n);  // functions that print array for calculating next greater element
           for (int i=0;i<ans.length;i++){
-            System.out.print(ans[i]+" ")
+            System.out.print(ans[i]+" ");
           }
     }
       public static long[] nextLargerElement(long[] arr, int n)

@@ -1,11 +1,9 @@
 // Algorithm Type: Divide & Conquer
 // Time Complexity: O(n*log(n))
 
-import java.io.File;
-import java.lang.reflect.Array;
 import java.util.*;
 
-public class inversions {
+public class Inversions {
   private static long count_split_inv(int[] arr, int[] left, int[] right) {
     long split_inv = 0;
     int ridx = 0, lidx = 0;

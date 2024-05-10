@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class Prims{
 	public static void main(String[] args) {
 		int w[][]=new int[10][10];
-		int min,mincost=0, u, v, flag=0;
+		int min,mincost=0, u = 0, v = 0, flag=0;
 		int sol[]=new int[10];
 		System.out.println("Enter the number of vertices");
 		Scanner sc=new Scanner(System.in);
@@ -43,8 +43,8 @@ public class Prims{
 						if(i!=j && w[i][j]<min)
 						{
 							min=w[i][j]; //cost of the edge
-							u=i;
-							v=j;
+							 u=i;
+							 v=j;
 						}
 			sol[v]=1;
 			mincost += min; //mincost of whole graph
@@ -52,7 +52,7 @@ public class Prims{
 			System.out.println(u+"->"+v+"="+min);
 		}
 
-		for(i=1;i<=n;i++)
+		for(int i=1;i<=n;i++)
 			if(sol[i]==0)
 				flag=1;
 		if(flag==1)
