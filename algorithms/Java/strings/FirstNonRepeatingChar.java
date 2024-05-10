@@ -11,7 +11,7 @@ Explanation of the algorithm:
 
 import java.util.*;
 
-class FirstNonRepeatingChar {
+public class FirstNonRepeatingChar {
 
     // Contains examples of usage of the algorithm
     public static void main(String[] args) {

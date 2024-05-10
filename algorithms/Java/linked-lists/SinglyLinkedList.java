@@ -8,7 +8,7 @@ class Node<T> {
     }
 }
 
-class SinglyLinkedList<T> {
+public class SinglyLinkedList<T> {
     Node<T> head;
 
     SinglyLinkedList() {
