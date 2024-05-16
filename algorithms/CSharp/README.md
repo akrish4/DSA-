@@ -58,3 +58,7 @@ To run the `.cs` file, kindly use [.Net Finddle](https://dotnetfiddle.net/)
 - [Kruskals Algorithm to Find Minimum Spanning Tree](src/Graph/kruskals-algorithm.cs)
 - [Dijkstras Algorithm to Find Shortest Path](src/Graph/dijkstra.cs)
 - [Floyd Warshalls Algorithm to Find All Pair Shortest Path](src/Graph/floyd-warshall-algorithm.cs)
+
+
+## UnionFind
+- [Union Find](src/Union-Find/union-find.cs)
