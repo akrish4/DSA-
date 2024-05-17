@@ -36,3 +36,7 @@ const contains = (object, checkValue) => {
 
     return false;
 };
+
+//Note
+//Time Complexity: 𝑂(𝑛) where n is the total number of key-value pairs in the object.
+//Space Complexity: 𝑂(𝑑) where d is the maximum depth of nested objects.
